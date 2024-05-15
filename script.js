@@ -6,7 +6,7 @@ const moduleFunctions = {
 	"clear": clear,
 };
 
-Module.LoadModule(moduleFunctions);
+module.LoadModule(moduleFunctions);
 
 var counters = [];
 var container = document.getElementById("container");
