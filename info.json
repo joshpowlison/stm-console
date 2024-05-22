@@ -1,38 +1,4 @@
 {
 	"name": "Console",
-	"version": 2,
-	"coreFiles": [
-		"info.json",
-		"browser-source.html",
-		"script.js",
-		"styles.css"
-	],
-	"defaultFiles": [],
-	"commands": [
-		{
-			"name": "Console.Log",
-			"accessMask": 255,
-			"function": "log"
-		},
-		{
-			"name": "Console.LogCommand",
-			"accessMask": 0,
-			"function": "logCommand"
-		},
-		{
-			"name": "Console.LogComment",
-			"accessMask": 0,
-			"function": "logComment"
-		},
-		{
-			"name": "Console.LogError",
-			"accessMask": 0,
-			"function": "logError"
-		},
-		{
-			"name": "Console.Clear",
-			"accessMask": 0,
-			"function": "clear"
-		}
-	]
+	"version": 2
 }
